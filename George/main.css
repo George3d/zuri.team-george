@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#main_container {
+    width: 100%;
+}
+
+.header {
+    padding-top: 60px;
+    height: 768px;
+    background-color: #fefafa;
+}
+
+.header .logo {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .banner {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .banner h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-family: sans-serif;;
+}
+
+.header .banner p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 30px;
+}
+
+.header .banner .header_parent_button {
+    width: 98%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .banner .header_parent_button .buttons {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: 25%;
+    padding: 15px 0px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d50000;
+    background-color: #d50000;
+}
+
+.header .banner .header_parent_button .buttons:nth-child(2) {
+    color: #d50000;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.header .banner .header_parent_button .buttons:nth-child(1):hover {
+    color: #d50000;
+    background-color: #fff;
+}
+
+.header .banner .header_parent_button .buttons:nth-child(2):hover {
+    color: #fff;
+    background-color: #d50000;
+}
+
+
+/*----------------------------------- SECTION STYLING --------------------- */
+.section_header {
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_header h3 {
+    color: #d50000;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.section_header p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    word-wrap: calc(50);
+}
+
+.section_body {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_body > div {
+    padding: 40px;
+    width: 30%;
+    background-color: #fefafa;
+}
+
+
+.zuri_train_logo, .zuri_intern_logo, .zuri_talent_logo {
+    max-width: 130px;
+    height: 100px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.training p, .internship p, .talent p {
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: #fefafa;
+}
+
+.training .more_info, .internship .more_info, .talent .more_info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.training a, .internship a, .talent a {
+    color: #d50000;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+.important_info_container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.important_info_container .import_info {
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.important_info_container .import_info > div {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.important_info_container .import_info > div > div > h2 {
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.links > div > a, .contact > div > a {
+    color: #d50000;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+
+.zuri_talent_logo {
+    flex:none;
+}

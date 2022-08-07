@@ -1,0 +1,86 @@
+@media screen and (max-width:800px) {
+    #main_container {
+        margin: 5px;
+    }
+
+    .header .banner .header_parent_button {
+        margin-top: 60px;
+        width: 98%;
+        display: flex;
+        padding: 10px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header .banner .header_parent_button .buttons {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        width: 28%;
+        padding: 15px 0px;
+        margin: 0px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d50000;
+        background-color: #d50000;
+    }
+    
+    .header .banner .header_parent_button .buttons:nth-child(2) {
+        color: #d50000;
+        width: 35%;
+        margin-left: 0px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+    
+    .header .banner .header_parent_button .buttons:nth-child(1):hover {
+        color: #d50000;
+        background-color: #fff;
+    }
+    
+    .header .banner .header_parent_button .buttons:nth-child(2):hover {
+        color: #fff;
+        background-color: #d50000;
+    }
+
+
+
+    /* ****************************** SECTION BODY *************************** */
+    .section_body {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section_body > div {
+        padding: 40px;
+        width: 90%;
+        background-color: #fefafa;
+    }
+
+
+    .training .more_info, .internship .more_info, .talent .more_info {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .import_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .important_info_container .import_info > div {
+        /* border: 1px solid red; */
+        height: 100px;
+    }
+
+    .important_info_container .import_info > div > div > h2 {
+        text-align: center;
+    }
+    
+    .links > div > a, .contact > div > a {
+        text-align: center;
+    }
+}
